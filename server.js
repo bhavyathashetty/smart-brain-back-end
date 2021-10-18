@@ -13,7 +13,8 @@ const db = knex({
   
   client: 'pg',
   connection: {
-    host : '127.0.0.1',
+    // host : '127.0.0.1',
+    host : 'http://bhavyatha-smart-brain.herokuapp.com',
     user : 'postgres',
     password : 'test',
     database : 'herokuaddons:create heroku-postgresql:hobby-dev'
