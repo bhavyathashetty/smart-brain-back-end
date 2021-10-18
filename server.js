@@ -16,7 +16,7 @@ const db = knex({
     host : '127.0.0.1',
     user : 'postgres',
     password : 'test',
-    database : 'herokuaddons:create heroku-postgresql:smartbrain'
+    database : 'herokuaddons:create heroku-postgresql:hobby-dev'
   }
 });
 
